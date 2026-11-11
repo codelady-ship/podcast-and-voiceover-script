@@ -15,7 +15,7 @@
 | 20 min | 2200 | 2600 | 3000 |
 | 30 min | 3300 | 3900 | 4500 |
 
-- Subtract about 2–3 words for each long pause `//` and 1 word for each `/` in short videos.
+- **Self-read scripts only:** subtract about 2 words for each long pause `//` and at most 5 words in total for short pauses `/` in 60 s. **TTS scripts:** use the plain spoken word count plus about 1 s per long pause `//` (the TTS block drops short `/` marks).
 - Music-only intro or outro time comes off the budget.
 - Talking-point podcasts (not word-for-word) run about 20–30% longer than the word count suggests; plan fewer points.
 
@@ -36,11 +36,18 @@ Example: a 210-word script at 140 wpm → 210 ÷ 140 × 60 = 90 s.
 
 ## Hook bank (patterns; write new words each time)
 
-- A surprising fact `[check source]`.
-- The listener's problem in their words: "You studied English for years and still freeze when speaking?"
-- A promise with a number: "In 60 seconds, 3 ways to…"
-- A tiny story: "Last year I failed my first interview. Here is what changed."
-- A question they want answered.
+| Pattern | Example shape |
+|---|---|
+| Surprising fact | "Most students pay for this. It's free." `[check source]` |
+| Their problem, their words | "You studied English for years and still freeze when speaking?" |
+| Number promise | "In 60 seconds, 3 ways to…" |
+| Tiny story | "Last year I failed my first interview. Here is what changed." |
+| Mistake | "Stop doing X if you want Y." |
+| Result first | Say or show the end, then "here is how". |
+| Contrast | "Paid course: 300 AZN. This one: zero." |
+| Question they want answered | "Can you study in Hungary for free?" |
+
+**Score each hook 1–5** on: clear in 3 seconds · curiosity · the script really delivers it. Total out of 15; recommend the highest. Avoid "Hey guys, welcome back", "In this video I will…", and promises the script does not keep.
 
 ## Reading check
 

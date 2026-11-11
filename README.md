@@ -8,6 +8,12 @@
 
 A free, text-only skill by Codelady Abroad for students and beginner creators. It runs anywhere a plain prompt runs: Claude Code, the Claude app, other agents or a website form. No scripts, no paid TTS APIs.
 
+## New in 1.1.0
+
+Scored hooks; paste-ready blocks for ElevenLabs v3, Gemini (one or two speakers) and Azure SSML with each free tier's checked terms; two-host dialogue and trailer formats; guest brief; pronunciation guide; title options; chapters checked against YouTube and Spotify rules; repurpose pack and publish checklist. See [CHANGELOG.md](CHANGELOG.md).
+
+Agensi package: `pwsh ./scripts/build-agensi-zip.ps1` builds `dist/podcast-and-voiceover-script.zip` (SKILL.md, references/, examples/, CHANGELOG.md only). Listing texts: [LISTING.md](LISTING.md). Blind test results: [`tests/`](tests/).
+
 ## What you get
 
 - Word budget per minute (130–150 wpm in English, about 110–130 for Azerbaijani, Turkish, Russian), with the count shown.

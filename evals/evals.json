@@ -35,6 +35,40 @@
         "Marks the ad read clearly and adds the AI-voice disclosure line in Russian if a synthetic voice is used",
         "Short and phone-readable"
       ]
+    },
+    {
+      "id": 4,
+      "prompt": "Write a 1-minute two-host dialogue in English for my study-abroad podcast trailer (hosts Nigar and Elvin) that I can paste into Gemini text-to-speech. Also, can I use the free ElevenLabs plan for my YouTube channel with ads?",
+      "expectations": [
+        "Trailer structure: who the show is for, what listeners get, hosts, release rhythm, CTA to follow",
+        "Dialogue with one speaker label per line (Nigar:/Elvin:), short turns, about 120-150 words with a stated word count",
+        "Gemini block: plain style sentence at the top, multi-speaker mode, names matching the script; notes Gemini handles up to two speakers",
+        "Says the ElevenLabs Free plan does not allow commercial use (a monetised channel with ads counts) and requires attribution (elevenlabs.io or 11.ai in the title); suggests a paid plan whose terms allow it or recording their own voice",
+        "Gives the date the terms were checked or says 'check the current terms'",
+        "AI-voice disclosure line"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "Check my YouTube and Spotify chapters: 0:05 Intro / 0:40 Why Hungary / 0:55 Documents 🎓 / 6:10 Visa / 5:00 Housing / 12:00 Outro",
+      "expectations": [
+        "Answers only this task without the full template",
+        "Flags: the first chapter must start at 00:00; 5:00 is out of order; emoji not allowed on Spotify; 0:40 to 0:55 is only 15 s (passes YouTube's 10 s minimum, but Spotify suggests merging chapters under 30 s)",
+        "Gives a corrected chapter list starting at 00:00, ascending, plain text",
+        "Short and phone-readable"
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "Here is part of my podcast transcript: 'um so, so the thing is, you know, the Stipendium Hungaricum deadline is usually in January, um, and honestly the motivation letter is where most people, like, fail. They write about the country, not about their goals.' Make me clips and a post from my episode.",
+      "expectations": [
+        "Repurpose output: at least one clip script with its own hook, keeping the speaker's words (fillers removed is fine) and marking anything else [paraphrase]",
+        "Does not invent extra facts; the January deadline stays as the speaker's words or is marked [check source]",
+        "Gives or offers an edit list for the fillers (um, you know, like)",
+        "A post or carousel text with one CTA",
+        "Says more transcript is needed for a full set of 3 clips instead of inventing content",
+        "Phone-short"
+      ]
     }
   ]
 }
