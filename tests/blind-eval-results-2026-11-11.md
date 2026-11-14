@@ -4,7 +4,7 @@ Skill: podcast-and-voiceover-script v1.1.0 (blind package: SKILL.md, references/
 Answers: blind/os-out/podcast-and-voiceover-script-1.md ... -6.md
 Grader rules: every expectation PASS/FAIL; an eval passes only if all expectations pass. Extra checks: language, word count vs timing (counted by the grader, spoken words only, marks and labels excluded), facts vs the skill references, safety, length.
 
-**Result: 4/6 evals pass** (2, 4, 5, 6 pass; 1 and 3 fail).
+**Round 1: 4/6; final (round 4): 6/6 — see table at end.** Round 1: evals 2, 4, 5, 6 pass; 1 and 3 fail.
 
 ---
 

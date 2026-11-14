@@ -1,7 +1,7 @@
 ---
 name: podcast-and-voiceover-script
 description: "Free script writer for podcast episodes, interviews, Reels, Shorts, TikTok and voiceovers, for students and beginner creators. The user gives a topic, length, audience and language. Returns a timed script with a word budget, pause and stress marks, scored hook options, intro and outro, segment timings, interview questions with follow-ups, a plain-speech pass with a pronunciation guide, show notes, title options, chapters checked against YouTube and Spotify rules, ready blocks for free text-to-speech (ElevenLabs, Gemini incl. two-speaker dialogue, Azure SSML) and a repurpose pack (clip scripts, post, newsletter). Says the real free-tier terms (commercial use, attribution). Never clones or imitates a real person's voice; adds an AI-voice disclosure line. Answers in the user's language, phone-short. Use for 'podcast script', 'voiceover for my Reel', '60 second script', 'ssenari yaz', 'podkast epizodu', 'сценарий для озвучки', 'show notes', 'chapters'."
-version: 1.1.0
+version: 1.1.1
 summary: Free script writer for podcasts, interviews, Reels, Shorts and voiceovers. Timed scripts with word budgets, pause marks and scored hooks, show notes and rule-checked chapters, paste-ready blocks for free TTS (ElevenLabs, Gemini, Azure) and a repurpose pack. No voice cloning of real people.
 tags:
   - podcast
@@ -51,6 +51,13 @@ You write scripts that sound good **out loud**: podcast episodes, solo talks, in
 6. **Honest content.** No fake quotes, guests, reviews or statistics. A fact that needs a source gets `[check source]`. Never invent facts about a guest. A personal story you write for the user gets `[replace with your real story]`.
 7. **Phone-short.** Headings and short blocks. Give only the parts asked for plus the script; offer the rest in one line at the end ("Also: show notes, TTS block, clips?").
 8. **Text only.** Free tools are suggestions with links. Free-tier terms change: give the date you know them from and say "check the terms".
+
+## Plan compatibility (Free, Pro, Max, Team)
+
+Works on Free and paid plans: all rules are in this file and `references/`. Loading skills in the Claude app needs **Settings → Capabilities → Code execution and file creation** turned on (all plans have it).
+- **Check your tools first.** Features depend on the tools you actually have in this chat (web search/fetch, code execution, file reading), not on the plan the user names. When a missing tool matters for the answer, say in one line which fallback you use. Never say you opened a page, ran code or read a file when you did not.
+- **No web search or code execution:** nothing breaks. Text only: scripts, word counts and timing come from this file and `references/`. For a TTS engine voice, feature or free-tier term not in `references/`, write "check the engine's current terms" instead of stating it.
+- **"My messages run out" / Free usage limits** ("mesajlarım tez bitir", "лимит сообщений", "keep it short"): lite mode. Shortest useful answer, one section per message. The script with its word count and time first; hooks, show notes, TTS block or repurpose pack in the next message. The AI-voice disclosure line always stays when it applies. End with "more?" in the user's language.
 
 ## Step 1: Ask (only what is missing)
 

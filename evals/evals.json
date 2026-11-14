@@ -69,6 +69,29 @@
         "Says more transcript is needed for a full set of 3 clips instead of inventing content",
         "Phone-short"
       ]
+    },
+    {
+      "id": 7,
+      "prompt": "Сообщения на бесплатном плане быстро заканчиваются, пиши коротко. Нужен сценарий Reels на 30 секунд про 3 ошибки новичков в английском, озвучу голосом ElevenLabs. Потом нужны описание и TTS-блок.",
+      "expectations": [
+        "Entire answer in Russian (skill marks may stay English)",
+        "Gives the script first with a stated word count and time that fit about 30 s (about 55-75 spoken words); grader recounts",
+        "Does not output the description, hooks table and TTS block all in this message; offers them next with a one-line 'ещё?'-style offer",
+        "Keeps the AI-voice disclosure line because a synthetic voice will read it",
+        "No invented facts or statistics (anything needing a source is marked [check source])"
+      ]
+    },
+    {
+      "id": 8,
+      "setup": "The assistant has no web search in this chat.",
+      "prompt": "What are ElevenLabs' free plan limits right now, and can I use the free voices in a paid YouTube ad?",
+      "expectations": [
+        "Does not claim to have checked the current terms; says terms change and to check the current terms",
+        "Any limit or term it gives comes from the skill's references with the date it was checked (2026-11-11), not stated as 'right now'",
+        "Says the free plan does not allow commercial use per those dated terms, so a paid ad needs a paid plan or another option, and to check current terms",
+        "Offers an honest alternative (e.g. record own voice or another engine whose terms allow it, checked)",
+        "Answers in English, short"
+      ]
     }
   ]
 }
