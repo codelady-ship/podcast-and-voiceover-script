@@ -6,7 +6,7 @@ DRAFT. Nothing has been submitted. The owner pastes these fields into agensi.io/
 |---|---|
 | ZIP to upload | `podcast-and-voiceover-script\dist\podcast-and-voiceover-script.zip` (built by `scripts\build-agensi-zip.ps1`) |
 | ZIP contents | SKILL.md, references/ (3), examples/ (1), CHANGELOG.md. No README, LICENSE, evals or tests |
-| Version | 1.1.0 |
+| Version | 1.1.1 |
 | Price | **Free** |
 | Brand | Codelady Abroad |
 
@@ -57,6 +57,7 @@ podcast, voiceover, script-writing, text-to-speech, youtube, reels, content-crea
 ## Compatibility note
 ```text
 Text only: no scripts, no API keys, no paid tools. Works on any agent that can load a SKILL.md. Audio is made by you or by a TTS tool you choose.
+Plan compatibility: works on Free, Pro, Max and Team plans. Short on messages? Say so and it answers one part at a time.
 ```
 
 ## "See it in action" demo
